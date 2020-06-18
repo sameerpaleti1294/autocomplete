@@ -20,11 +20,11 @@ cd backend/ <br />
 cd .. <br />
 cd frontend/ <br />
 npm install <br />
-npm build <br />
+npm build --prod <br />
 
 # run docker
 cd ..<br />
 docker-compose up <br />
 
 
-To access the UI go the URL "http://YOURIP:4200/"
+To access the UI for application go the URL "http://YOURIP:4200/" (Note: replace YOURIP with IP of your machine where docker is running)
