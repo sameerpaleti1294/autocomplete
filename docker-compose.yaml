@@ -1,0 +1,14 @@
+version: '3' # specify docker-compose version
+
+services:
+  nginx: # name of the first service
+    build: . # specify the directory of the Dockerfile
+    ports:
+      - "4200:80" # maps port 4200 on localhost to 80 in container
+    depends_on:
+      - "backend"
+
+  backend: # name of the second service
+    build: ./backend # specify the directory of the Dockerfile
+    ports:
+      - "8081:8080" # maps port 8081 on localhost to 8080 in container

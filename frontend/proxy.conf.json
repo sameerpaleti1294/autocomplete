@@ -1,0 +1,12 @@
+{
+    "/suggestions": {  
+        "target": "http://backend:8080", 
+      "secure": true,
+      "pathRewrite": {
+      "^/suggestions": ""
+    },
+      "changeOrigin": true
+    }
+  }
+
+ 
