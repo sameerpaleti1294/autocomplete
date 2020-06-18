@@ -27,4 +27,4 @@ cd ..<br />
 docker-compose up <br />
 
 
-To access the UI go the URL http://<yourip>:4200/
+To access the UI go the URL "http://YOURIP:4200/"
