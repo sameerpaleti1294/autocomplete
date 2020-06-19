@@ -20,7 +20,7 @@ cd backend/ <br />
 cd .. <br />
 cd frontend/ <br />
 npm install <br />
-npm build --prod <br />
+npm run build <br />
 
 # run docker
 cd ..<br />
